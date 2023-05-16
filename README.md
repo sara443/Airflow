@@ -2,7 +2,7 @@
 Dag reads from DB  and write in s3 (staging) and then join  with target in snowflack (DWH)
 RDS__s3__snowflack 
 Apache Airflow is an open-source platform for developing, scheduling, and monitoring batch-oriented workflows. Airflow's extensible Python framework enables you to build workflows connecting with virtually any technology. A web interface helps manage the state of your workflows.
-components:
+components of pipelines:
 1- source system __AWS(RDS)
 2-postgres (transactional data base) s3 ,have two tables
 -finance -hr
