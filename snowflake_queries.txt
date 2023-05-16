@@ -1,0 +1,19 @@
+-- snowflake
+create database airflow_iti;
+use airflow_iti;
+create schema dimensions;
+create table dimensions.employee_dim (
+emp_sk int AUTOINCREMENT PRIMARY KEY,
+emp_id int,
+name varchar(50),
+marital_status varchar(20),
+num_children int,
+address varchar(200),
+phone_number int,
+job varchar(30),
+hire_date date,
+salary int,
+effective_start_date date,
+effective_end_date date,
+active boolean
+);
