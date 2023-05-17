@@ -18,6 +18,7 @@ steps:
 and if it not empty make update then insert 
 
 
+![air2](https://github.com/sara443/Airflow-Data-Pipeline/assets/63977435/d8edfb8d-0996-4ab6-872d-63b347e4f846)
 
 
 
