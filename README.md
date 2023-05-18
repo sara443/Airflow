@@ -7,10 +7,13 @@ steps:
 
  Apache Airflow-based data pipeline that automates the extraction, transformation, and loading of employee salary data. With seamless integration between PostgreSQL and Snowflake, this project ensures accurate and up-to-date salary information. 
 
-Key Features:
+
  Extraction: PostgresOperator retrieves salary data from PostgreSQL on AWS.
+ 
  Staging: S3UploadOperator securely stages data in Amazon S3.
+ 
  Transformation: PythonOperator applies custom transformations using Pandas.
+ 
 - Update and Insert: SnowflakeOperator updates existing records and inserts new ones. (DWH)
 
 1- join tables (finance - hr)
